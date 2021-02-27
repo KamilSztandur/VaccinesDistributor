@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Launcher",
+            "request": "launch",
+            "mainClass": "vaccDistributor.src.main.Launcher",
+            "projectName": "Program_28680921"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Launcher<Program_1a5e6516>",
+            "request": "launch",
+            "args": "input.txt",
+            "mainClass": "vaccDistributor.src.main.Launcher",
+            "projectName": "Program_1a5e6516"
+        }
+    ]
+}
